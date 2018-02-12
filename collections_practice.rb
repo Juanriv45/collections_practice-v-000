@@ -23,7 +23,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.join(",").reverse.split(",")
+  array.join(",").sort.split(",")
 
 end
 
