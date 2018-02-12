@@ -19,7 +19,7 @@ def swap_elements(array)
    y = array[2]
   array[1] = y
   array[2] = x
-  array 
+  array
 end
 
 def reverse_array(array)
