@@ -51,7 +51,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |x,index|
-    if index!=3 then
+    if index !== 3 then
       x<<"s"
     end
   end
